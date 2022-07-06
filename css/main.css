@@ -52,12 +52,15 @@ header {
 	align-items: center;
 	flex-flow: row wrap;
 	width: 100%;
+	text-align: center;
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
 	width: 100%;
+	border-bottom: 3px solid #77a466;
+
 
 }
 header h1 span {
@@ -77,6 +80,8 @@ header nav ul li {
 	font-size: .875em;
 	padding: 0 10px;
 	list-style: none;
+	line-height: 40px;
+
 	/*display: inline;*/
 }
 header nav ul li a{
